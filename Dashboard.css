@@ -1,0 +1,25 @@
+/* src/components/Dashboard.css */
+.dashboard-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .dashboard-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .dashboard-container button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dashboard-container button:hover {
+    background-color: #feb47b;
+  }
+  

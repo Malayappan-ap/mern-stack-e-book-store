@@ -1,0 +1,45 @@
+.blog-container {
+    background: linear-gradient(to right, #ff9a8b, #ff6a88); /* Soft pink gradient */
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .blog-header {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .blog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .blog-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    text-align: center;
+  }
+  
+  .blog-item h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .blog-item a {
+    text-decoration: none;
+    color: #ff7e5f;
+    font-weight: bold;
+  }
+  
+  .blog-item a:hover {
+    text-decoration: underline;
+  }
+  
